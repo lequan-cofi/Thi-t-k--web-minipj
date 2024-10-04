@@ -1,0 +1,179 @@
+body {
+    padding: 0 100px; /* Lề trái và phải */
+}
+
+
+
+/* Tùy chỉnh navbar */
+.navbar-brand {
+    font-weight: bold;
+    color: #FF6F61;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.nav-item {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 50px; /* Chiều rộng của ảnh */
+    height: 50px; /* Chiều cao của ảnh, hoặc bạn có thể để auto để duy trì tỉ lệ */
+    margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
+    vertical-align: text-top; /* Giúp căn giữa ảnh với văn bản */
+}
+
+.navbar-nav .nav-item {
+    margin: 15 px; /* Căn chỉnh lề trái phải của từng mục */
+}
+/* Tùy chỉnh banner chính */
+
+.custom-bg-red {
+    background-color: #006e7b;
+    border-radius: 20px; /* Bo tròn góc với bán kính 20px */
+    padding: 20px; /* Tạo khoảng cách giữa nội dung và viền */
+}
+.Custom-bg-navbar {
+    background-color: #ffffff;
+    border-radius: 20px; /* Bo tròn góc với bán kính 20px */
+    padding: 20px; /* Tạo khoảng cách giữa nội dung và viền */
+}
+.container-fluid {
+    display: flex; /* Sử dụng Flexbox để bố trí nội dung */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Tạo không gian giữa nội dung và hình ảnh */
+}
+.mayanhbanner {
+    max-width: 300px; /* Kích thước tối đa của hình ảnh */
+    width: 100%; /* Đảm bảo hình ảnh co giãn với kích thước của vùng chứa */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+    margin-right: 100px; /* Tạo khoảng cách giữa văn bản và hình ảnh */
+    margin-bottom: 100px;
+
+}
+
+.text-content h1 {
+    margin-bottom: 50px; /* Thay đổi giá trị này để điều chỉnh khoảng cách giữa h1 và p */
+}
+.text-content {
+    margin-left: 100px;
+
+}
+.btn {
+    margin-top: 15px; /* Thêm khoảng cách trên nút */
+}
+
+
+/* Flash Deals */
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: black; /* Màu chữ khi hover */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white; /* Nền trắng cho thẻ */
+    border: 1px solid #ddd; /* Viền nhẹ màu xám */
+    border-radius: 8px; /* Bo tròn góc thẻ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Đảm bảo chiều cao của thẻ là 100% */
+}
+
+.card-body {
+    padding: 15px;
+    flex-grow: 1; /* Giúp phần thân thẻ chiếm hết không gian còn lại */
+    text-align: center; /* Căn giữa nội dung */
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.text-danger {
+    font-size: 14px;
+}
+
+.text-muted {
+    font-size: 12px;
+    color: #888;
+}
+/* dropdown */
+.navbar .dropdown-menu {
+    background-color: #f8f9fa; /* Màu nền menu */
+    border: 1px solid #ddd; /* Viền */
+}
+
+.navbar .dropdown-item {
+    color: #333; /* Màu chữ */
+    padding: 10px 20px; /* Khoảng cách chữ */
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #797c80; /* Màu nền khi hover */
+    color: white; /* Màu chữ khi hover */
+}
+
+.a {
+   color: black;
+}
+
+.navbar .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; /* Khoảng cách giữa biểu tượng và chữ */
+}
+
+
+/* Màu sắc cho các nhãn giảm giá */
+.text-danger {
+    color: red !important;
+}

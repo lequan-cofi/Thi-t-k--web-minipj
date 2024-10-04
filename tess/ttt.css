@@ -1,0 +1,46 @@
+/* Font và Màu sắc */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.navbar {
+    background-color: #1e90ff;
+    padding: 10px;
+}
+
+.navbar .main-menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Card */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sản phẩm */
+.product-detail img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-detail .description {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
